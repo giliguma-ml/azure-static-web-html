@@ -33,6 +33,8 @@ jobs:
           output_location: "/" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
       - run: |
+          ls
+          pwd
           cp ./config/dev/staticwebapp.config.json ./
 
   close_pull_request_job:
