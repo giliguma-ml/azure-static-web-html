@@ -9,7 +9,7 @@
               "clientSecretSettingName": "AADB2C_PROVIDER_CLIENT_SECRET"
             },
             "openIdConnectConfiguration": {
-              "wellKnownOpenIdConfiguration": "https://newigumatenant.b2clogin.com/newigumatenant.onmicrosoft.com/B2C_1A_SIGNUP_SIGNIN/v2.0/.well-known/openid-configuration"
+              "wellKnownOpenIdConfiguration": "https://bridgestoneAIdevqachatbot.b2clogin.com/bridgestoneAIdevqachatbot.onmicrosoft.com/B2C_1A_SIGNUP_SIGNIN/v2.0/.well-known/openid-configuration"
             }
           },
           "login": {
