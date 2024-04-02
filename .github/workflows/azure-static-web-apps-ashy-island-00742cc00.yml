@@ -34,6 +34,7 @@ jobs:
           ###### End of Repository/Build Configurations ######
       - run: |
           pwd
+          cp ./config/dev/staticwebapp.config.json ./
           ls
 
   close_pull_request_job:
