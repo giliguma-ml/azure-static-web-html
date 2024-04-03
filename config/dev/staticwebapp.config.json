@@ -32,7 +32,7 @@
     },
     {
       "route": "/logout-b2c",
-      "redirect": "https://ashy-island-00742cc00.5.azurestaticapps.net/.auth/logout&post_logout_redirect_uri=https%3A%2F%2Fbtsjgroup--devf6.sandbox.my.site.com%2FBselectPortal%2Flogin"
+      "redirect": "https%3A%2F%2Fbtsjgroup--devf6.sandbox.my.site.com%2FBselectPortal%2Flogin"
     },
     {
       "route": "/*",
