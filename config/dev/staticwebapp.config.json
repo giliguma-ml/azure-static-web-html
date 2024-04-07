@@ -9,7 +9,7 @@
               "clientSecretSettingName": "AADB2C_PROVIDER_CLIENT_SECRET"
             },
             "openIdConnectConfiguration": {
-              "wellKnownOpenIdConfiguration": "https://bridgestoneAIdevqachatbot.b2clogin.com/bridgestoneAIdevqachatbot.onmicrosoft.com/B2C_1A_SIGNUP_SIGNIN/v2.0/.well-known/openid-configuration"
+              "wellKnownOpenIdConfiguration": "https://newigumatenant.b2clogin.com/newigumatenant.onmicrosoft.com/B2C_1A_SIGNUP_SIGNIN/v2.0/.well-known/openid-configuration"
             }
           },
           "login": {
@@ -32,7 +32,7 @@
     },
     {
       "route": "/logout-b2c",
-      "redirect": "https%3A%2F%2Fbtsjgroup--devf6.sandbox.my.site.com%2FBselectPortal%2Flogin"
+      "redirect": "https://newigumatenant.b2clogin.com/newigumatenant.onmicrosoft.com/b2c_1a_signup_signin/oauth2/v2.0/logout?post_logout_redirect_uri=https%3A%2F%2Fjwt.ms%2F"
     },
     {
       "route": "/*",
